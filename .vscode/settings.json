@@ -1,0 +1,15 @@
+{
+    "C_Cpp.default.compilerPath": "/home/firatcan/.vscode/extensions/bartmanabyss.amiga-debug-1.0.0\\bin\\opt\\bin\\m68k-amiga-elf-gcc.exe",
+    "files.associations": {
+        "confd_lib.h": "c",
+        "inet.h": "c",
+        "confd.h": "c",
+        "stdio.h": "c",
+        "string.h": "c",
+        "socket.h": "c",
+        "confd_cdb.h": "c",
+        "types.h": "c",
+        "unistd.h": "c",
+        "kategori.h": "c"
+    }
+}

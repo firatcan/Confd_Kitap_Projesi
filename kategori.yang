@@ -1,0 +1,23 @@
+module kategori {
+    namespace "http://example.com/ns/Kategori";
+    prefix kategori;
+    
+    include kitap;
+    organization "Ulak Haberlesme A.S.";
+    
+    contact
+    	"Fırat Can YILDIRIM
+    	 mail: firatcanyildirim7106@gmail.com
+    	 telefon: +90 530 911 1281";
+    	
+    description "Ornek Calisma";
+    
+    revision "2021-02-20" {
+        description "Kategoriler";
+    }
+    
+    container tarih {
+        config false;
+        uses kitap;
+    }
+}

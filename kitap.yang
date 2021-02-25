@@ -1,0 +1,22 @@
+submodule kitap {
+
+    yang-version 1.1;
+    
+    belongs-to "kategori" {
+        prefix "kategori";
+    }
+    
+    grouping kitap {
+        container kitap {
+        leaf kitapAdi {
+            type string;
+        }
+        leaf kitapSayfaSayisi {
+            type uint32;
+        }
+        leaf kitapYayinEvi {
+            type string;
+        }
+    }
+    }
+}
